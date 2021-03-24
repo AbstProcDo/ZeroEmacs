@@ -227,7 +227,7 @@
 
 
 ;; Sunrise and sunset in agenda
-;;Sunrise
+;;Sunrise 
 ;;日出而作, 日落而息
 (defun diary-sunrise ()
   (let ((dss (diary-sunrise-sunset)))
@@ -259,9 +259,9 @@
       (buffer-substring start end))))
 
 
-;; 村的坐标
-(setq calendar-longitude 120.964218) ;;long是经度, 东经
-(setq calendar-latitude 36.605436) ;;lat, flat, 北纬
+;; 坐标
+;;(setq calendar-longitude 000) ;;long是经度, 东经
+;;(setq calendar-latitude 000) ;;lat, flat, 北纬
 
 
 ;; 中文的天干地支
